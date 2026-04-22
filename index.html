@@ -8,26 +8,31 @@
 </head>
 <body>
     <div class="game-container">
+        <div class="logo-area">
+            <img src="logo.png" alt="機車改裝店 Logo" id="game-logo">
+            <h1>極速工坊：機車改裝大亨</h1>
+        </div>
+
         <header class="dashboard">
             <div class="stat-item">資金: $<span id="money">0</span></div>
             <div class="stat-item">名聲: <span id="fame">0</span></div>
-            <div class="stat-item">技師人數: <span id="mechanics">0</span></div>
+            <div class="stat-item">專業技師: <span id="mechanics">0</span></div>
         </header>
 
         <main class="game-content">
             <section class="work-area">
                 <h2>車庫維修區</h2>
                 <div class="bike-display">
-                    <div id="status-text">準備就緒</div>
+                    <div id="status-text">等待車輛進場...</div>
                 </div>
                 <div class="progress-container">
                     <div id="progress-bar"></div>
                 </div>
-                <button id="repair-btn" class="main-btn">開始保養維修</button>
+                <button id="repair-btn" class="main-btn">開始保養維修 (點擊)</button>
             </section>
 
             <section class="shop-area">
-                <h2>精品改裝店</h2>
+                <h2>改裝精品店</h2>
                 <div id="upgrade-list">
                     </div>
             </section>
